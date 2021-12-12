@@ -26,9 +26,11 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	implementation "com.discord4j:discord4j-core:3.2.1"
+	implementation 'com.google.code.gson:gson:2.8.9'
 
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+	
 }
 
 processResources {
