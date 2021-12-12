@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "destructiveskull.fabric.discord.bot.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "PlayerJoinMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

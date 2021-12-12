@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "fabricdiscordbot",
+  "version": "${version}",
+
+  "name": "Fabric Discord Bot - Player Announcer",
+  "description": "This mod creates and runs a discord bot that notifies you on discord whenever a player joins or leaves the server!",
+  "authors": [
+    "DestructiveSkull"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/fabricdiscordbot/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "destructiveskull.fabric.discord.bot.FabricDiscordBot"
+    ]
+  },
+  "mixins": [
+    "fabricdiscordbot.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
